@@ -34,13 +34,49 @@ enum Color {
     Blue
 }
 
+// enum Roles {
+//     Admin,
+//     support,
+//     customer
+// }
+// let chinmay:Roles = Roles.Admin
+
 let favColor:Color = Color.Blue
 //console.log(Color.Blue)
 
 // program 6
-//union
+//union type
 let password:string|number = 123
 password = "ABCD"
+
+// Program 7 
+// convert types using type assertion
+let somevalue:unknown = "this is unknow value"
+let val:number = (somevalue as string).length
+console.log(`String lenght: ${val}`)
+
+// Program 8
+// unknow - checked will happen for type  
+// any - check will not happen
+
+let fruit:any = true
+let fruit2:unknown = "banana"
+let fruit3:string = fruit2 as string 
+
+// program 9
+let nulvalue:string |null = null
+nulvalue ="chinmay"
+let undefinedval:string | undefined
+
+
+
+
+
+
+
+
+
+
 
 
 
