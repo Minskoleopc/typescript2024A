@@ -25,9 +25,30 @@ var Color;
     Color[Color["Green"] = 2] = "Green";
     Color[Color["Blue"] = 3] = "Blue";
 })(Color || (Color = {}));
+// enum Roles {
+//     Admin,
+//     support,
+//     customer
+// }
+// let chinmay:Roles = Roles.Admin
 let favColor = Color.Blue;
 //console.log(Color.Blue)
 // program 6
-//union
+//union type
 let password = 123;
 password = "ABCD";
+// Program 7 
+// convert types using type assertion
+let somevalue = "this is unknow value";
+let val = somevalue.length;
+console.log(`String lenght: ${val}`);
+// Program 8
+// unknow - checked will happen for type  
+// any - check will not happen
+let fruit = true;
+let fruit2 = "banana";
+let fruit3 = fruit2;
+// program 9
+let nulvalue = null;
+nulvalue = "chinmay";
+let undefinedval;
