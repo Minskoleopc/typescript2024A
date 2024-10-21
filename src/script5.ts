@@ -53,7 +53,7 @@ interface Calculator {
     subtraction(a:number,b:number):number
 }
 
-let cal:Calculator = {
+let calC:Calculator = {
     add:(a,b) => a+b,
     subtraction:(a,b) => a-b
 }
