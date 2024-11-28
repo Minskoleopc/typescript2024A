@@ -30,6 +30,7 @@ let addC = (x:number,y:number):number =>{
 addC(23,4)
 
 // program 4
+// parameter ---> rest ---- 1,2,3,4 [1,2,3,4]
 function getTotal(...numbers:number[]):number{
     return numbers.reduce(function(acc,el){
         return acc + el

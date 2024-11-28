@@ -2,22 +2,22 @@
 // multi-level
 // herarchical 
 
-// class Animal {
-//     species:string
-//     constructor(species:string){
-//         this.species = species
-//     }
+class Animal {
+    species:string
+    constructor(species:string){
+        this.species = species
+    }
 
-//     makeSound():void {
-//         console.log(`${this.species} makes a sound !`)
-//     }
-// }
-// class Dog extends Animal{
-//    bark():void {
-//         console.log("Woof Woof ...!")
-//    }
+    makeSound():void {
+        console.log(`${this.species} makes a sound !`)
+    }
+}
+class Dog extends Animal{
+   bark():void {
+        console.log("Woof Woof ...!")
+   }
 
-// }
+}
 
 // let moti = new Dog("Dog")
 // console.log(moti.species)

@@ -67,21 +67,23 @@ console.log(`Add :${calD.subtraction(13,4)} `)
 // program 5
 
 interface Animal {
-    name:string
+    namee:string
 }
 
 interface Dog extends Animal{
     breed:string
 }
 
-let rabbit:Animal = {
-    name:"red rabbit"
-}
 
-let puppy:Dog = {
-    name:"tuffy",
-    breed:"basic"
-}
+
+// let rabbit:Animal = {
+//     name:"red rabbit"
+// }
+
+// let puppy:Dog = {
+//     name:"tuffy",
+//     breed:"basic"
+// }
 
 interface accountOpen {
     name:string;

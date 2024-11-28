@@ -24,7 +24,6 @@ let phone:[number,number] = [7709192441,9561317858]
 
 
 // program 5
-
 //  enum 
 // roles - admin customer support manager developer
 
@@ -58,6 +57,9 @@ console.log(`String lenght: ${val}`)
 // Program 8
 // unknow - checked will happen for type  
 // any - check will not happen
+
+
+
 
 let fruit:any = true
 let fruit2:unknown = "banana"

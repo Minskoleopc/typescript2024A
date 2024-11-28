@@ -40,7 +40,7 @@
 
 // }
 
-// let tiger = new Animal("Cat","New")
+//let tiger = new Animal("Cat","New")
 
 // console.log(tiger.species)
 // //console.log(tiger.sound) --- not accessible

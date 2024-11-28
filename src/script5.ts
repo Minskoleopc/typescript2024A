@@ -57,8 +57,8 @@ let calC:Calculator = {
     add:(a,b) => a+b,
     subtraction:(a,b) => a-b
 }
-cal.add(13,4)
-cal.subtraction(23,4)
+calC.add(13,4)
+calC.subtraction(23,4)
 
 
 // program 5

@@ -60,13 +60,11 @@ logLength([11,22,33,44,55])
 function processData<T = string>(data:T){
     return data
 }
-
 processData<number>(42)
 processData<boolean>(true)
 processData("234")
 
 // Keyof Generics 
-
 function getProperty<T,K extends keyof T>(obj:T,key:K):T[K]{
     return obj[key]
 }
@@ -88,8 +86,6 @@ getProperty(info,"lastname")
 getProperty(info3,"firstName")
 getProperty(info3,"lastName")
 getProperty(info3,"age")
-
-
 
 
 
